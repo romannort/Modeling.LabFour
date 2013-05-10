@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modeling.LabFour", "Modeling.LabFour\Modeling.LabFour.csproj", "{D70BAA15-A0D5-420B-B82F-15BCAB09ED77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modeling.LabFour.Generators", "Modeling.LabFour.Generators\Modeling.LabFour.Generators.csproj", "{CE0A2DB9-31C8-4B47-8D67-0F87517F322A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modeling.LabFour.ConsoleUi", "Modeling.LabFour.ConsoleUi\Modeling.LabFour.ConsoleUi.csproj", "{0FB211AD-AFF5-4EDE-98AB-37E152BFE233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70BAA15-A0D5-420B-B82F-15BCAB09ED77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70BAA15-A0D5-420B-B82F-15BCAB09ED77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70BAA15-A0D5-420B-B82F-15BCAB09ED77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70BAA15-A0D5-420B-B82F-15BCAB09ED77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0A2DB9-31C8-4B47-8D67-0F87517F322A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0A2DB9-31C8-4B47-8D67-0F87517F322A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0A2DB9-31C8-4B47-8D67-0F87517F322A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0A2DB9-31C8-4B47-8D67-0F87517F322A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB211AD-AFF5-4EDE-98AB-37E152BFE233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB211AD-AFF5-4EDE-98AB-37E152BFE233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB211AD-AFF5-4EDE-98AB-37E152BFE233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB211AD-AFF5-4EDE-98AB-37E152BFE233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
