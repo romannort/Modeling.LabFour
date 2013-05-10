@@ -32,7 +32,7 @@ namespace Modeling.LabFour
             PipeProcessingTime = 48; // 48 minutes or 0.8 hour * 60 minutes;
             MinChannelNumber = 1;
             MaxChannelNumber = 12;
-            Cycles = 600000; // 10 000
+            Cycles = 60000; // 10 000
             EmitterElement emitter = new EmitterElement(Lambda);
             ICollection<PipeElement> pipes = new List<PipeElement>();
 
@@ -67,6 +67,7 @@ namespace Modeling.LabFour
                     UpdateChannelsCosts(pipes.Count, minute, data);
                     ElementBase.UpdateTime();
                 }
+                result.Add(data);
             }
             return result;
         }

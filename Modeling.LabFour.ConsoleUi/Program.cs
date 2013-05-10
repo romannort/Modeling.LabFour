@@ -18,7 +18,7 @@ namespace Modeling.LabFour.ConsoleUi
             foreach (var data in result.results)
             {
                 Int32 total = data.Profit - data.Costs;
-                Console.Out.WriteLine("{0: 0.0} {1: 0.0} {2: 0.0} {3: 0.0}", data.NumberOfChannels, data.Costs, data.Profit, total);
+                Console.Out.WriteLine("{0:0.0}  {1:0.0}  {2:0.0}  {3:0.0}", data.NumberOfChannels, data.Costs, data.Profit, total);
             }
         }
     }

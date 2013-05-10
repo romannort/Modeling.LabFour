@@ -32,7 +32,7 @@ namespace Modeling.LabFour
 
         public void Start()
         {
-            currentTime = (Int32)Math.Round(ExponentialGenerator.Next(lambda)) + 1;
+            currentTime = (Int32)ExponentialGenerator.Next(lambda) + 1;
         }
 
     }
